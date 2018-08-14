@@ -1,19 +1,14 @@
 # ArrayList1
-//Laura Roesler
-//The purpose of this program is to build an ArrayList, that is
-//it will create a structure that can accept an Object and store 
-//it in a way that will make it possible to add, remove, or find 
-//the added objects. 
-//The solution is to initially use a basic array and fill the array with generic objects,
-//type casting them as they are added. 
 
-public class ArrayList<T> 
-{
-	int size =52;						//a variable for the total size of the array
-	Object[] objArray = new Object[size];   //creates an array of Objects
-	int length = objArray.length -1;  	    //a variable to access the length of the array
-	int items =0;  							//a variable for the items added to the array, initialized to zero
-	T genericObject; 						//a variable to type cast the Objects to generic objects
+The purpose of this program is to build an ArrayList, that is it will create a structure that can accept an Object and store it in a way that will make it possible to add, remove, or find the added objects. The solution is to initially use a basic array and fill the array with generic objects, type casting them as they are added. 
+
+
+public class ArrayList<T> {
+	int size =52;						
+	Object[] objArray = new Object[size];   
+	int length = objArray.length -1;  	    
+	int items =0;  					
+	T genericObject; 						
 	
 	public ArrayList()  //an empty constructor with the size set to 10 
 	{
